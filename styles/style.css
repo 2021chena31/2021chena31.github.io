@@ -1,19 +1,39 @@
 h1 {
   font-family: "Papyrus", fantasy;
   font-size: 3em;
-  color:rgb(71, 71, 71);
+  /*color:rgb(126,126,126);*/
+  color: white;
 
 
   text-align:center;
 
   border-style: double;
-  border-color: rgb(71, 71, 71);
-  /*background-color: rgb(152, 255, 255);*/
+  border-color: rgb(126,126,126);
+  background-color: rgb(126, 126, 126);
   
-  width: 700px;
-  /*margin-left: 70px;*/
+ 
+  
+  /*width: 700px;
+  margin-left: 70px;  background-color: rgb(152, 255, 255);*/
   margin: auto;
+  margin-top: 0px;
+
+  outline-color: rgb(34, 32, 32);
+  outline: rgb(0,0,0), 500px;
   /*border-width: 10px;*/
+}
+
+.header-img {
+  max-width: 100%;
+  height: 100px;
+  background: "images/headerplaceholder.png";
+  background-size: cover;
+}
+
+body{
+  /*background-color: rgb(126,126,126);*/
+  border-color: black;
+
 }
 
 /*div {
@@ -32,16 +52,16 @@ div:after {
 }*/
 
 .topnav{
-  color:rgb(71, 71, 71);
+  color:rgb(126,126,126);
   border-style: double;
-  background-color: rgb(71, 71, 71);
+  background-color: rgb(126,126,126);
   overflow: hidden;
   text-align: center;
 }
 
 .topnav a {
   border-style: hidden;
-  background-color: rgb(71, 71, 71);
+  background-color: rgb(126,126,126);
   text-align: center;
   padding: 50px;
 
@@ -52,10 +72,56 @@ div:after {
 
 .topnav a.active {
   background-color: white;
-  color: rgb(71, 71, 71);
+  color: rgb(126,126,126);
+  /* border-radius: 5px; not working :(((((*/
 }
 
-p {
-  color: rgb(71, 71, 71);
-  font-family: "Times New Roman", serif;
+footer{
+  /* background-color: rgb(126, 126, 126); */
+  /* color: white; */
+  /* height: 50px; */
+  /* border-radius: 10px; yoooo this one is pretty cool (make circle)*/
+
+
+  /* margin: auto;
+  text-align: center;
+
+  position: relative;
+  min-height: 150px;
+  font-family: "Papyrus", fantasy; */
+
+  /* color:rgb(126,126,126); */
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  min-height: 150px;
+  margin: auto;
+
+  
+  /* font-size: 0em; */
 }
+
+#footertext{
+  /* 
+  left: 0;
+
+  font-family: "Papyrus", fantasy;
+  text-align: center;
+  margin: auto; */
+
+
+  border-style: hidden;
+  text-align: center;
+  padding: 30px;
+  color:rgb(126, 126, 126);
+  font-family: "Papyrus", fantasy;
+
+
+  /* height: 50px; */
+  /* margin: 100px; */
+}
+
+/*p {
+  color: rgb(126,126,126);
+  font-family: "Times New Roman", serif;
+}*/
